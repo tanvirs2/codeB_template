@@ -2,11 +2,11 @@
 	"name": "Prema",
 	"icons": [
 		{
-			"src": "img\/favicons\/android-chrome-192x192.png",
+			"src": "img\/favicons\/android-chrome-cbf-192x192.png",
 			"sizes": "192x192",
 			"type": "image\/png"
 		}
 	],
-	"theme_color": "#0c7cd5",
+	"theme_color": "#00b85b",
 	"display": "standalone"
 }
