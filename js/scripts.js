@@ -291,7 +291,7 @@ Author: Ahmed Beheiry
 			type: "POST",
 			//url: "php/contact.php",
 			//data: "name=" + name + "&mail=" + mail + "&message=" + message,
-			url: "cb.tanvirpro.com/api/v1/contact-us",
+			url: "http://cb.tanvirpro.com/api/v1/contact-us",
 			data: {
 				"name": name,
             	"mail": mail,
