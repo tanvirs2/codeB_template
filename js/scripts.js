@@ -302,7 +302,7 @@ Author: Ahmed Beheiry
 				formResponse.fadeOut(500).text("");
 			},
 			success: function(text) {
-				console.log(text);
+				//console.log(text);
 				if(text.status == "success") {
 					contactForm[0].reset();
 					formResponse.text("Thanks! Your message sent correctly.").fadeIn(1000);
