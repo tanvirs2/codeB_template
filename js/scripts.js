@@ -289,19 +289,26 @@ Author: Ahmed Beheiry
 			message = $("#message").val();
 		$.ajax({
 			type: "POST",
-			url: "php/contact.php",
-			data: "name=" + name + "&mail=" + mail + "&message=" + message,
+			//url: "php/contact.php",
+			//data: "name=" + name + "&mail=" + mail + "&message=" + message,
+			url: "https://cb.tanvirpro.com/api/v1/contact-us",
+			data: {
+				"name": name,
+            	"mail": mail,
+            	"message": message,
+			},
 			beforeSend: function(text) {
 				submitButton.html("<i class='fa fa-spinner fa-spin'></i> Sending...");
 				formResponse.fadeOut(500).text("");
 			},
 			success: function(text) {
-				if(text == "success") {
+				//console.log(text);
+				if(text.status == "success") {
 					contactForm[0].reset();
 					formResponse.text("Thanks! Your message sent correctly.").fadeIn(1000);
 					submitButton.html("Send Message");
 				} else {
-					formResponse.text(text).fadeIn(1000);
+					formResponse.text(text.status).fadeIn(1000);
 				}
 			}
 		});
