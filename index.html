@@ -1,1 +1,821 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<!-- IE compatibility -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="codeBeyins is a full stack software firm in Bangladesh">
+    <meta name="author" content="codeBeyins">
 
+	<title>codeBeyins</title>
+
+	<!-- Favicons Links -->
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicons/cbf-180x180.png">
+	<link rel="icon" type="image/png" href="img/favicons/cbf-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/cbf-16x16.png" sizes="16x16">
+	<link rel="manifest" href="img/favicons/manifest.json">
+<!--	<link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#00b85b">-->
+	<link rel="shortcut icon" href="img/favicons/favicon2.ico">
+	<meta name="msapplication-config" content="img/favicons/browserconfig.xml">
+	<meta name="theme-color" content="#0c7cd5">
+
+	<!-- Bootstrap css file -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Fontawesome library css file -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- Animate css file -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Slick Slider css file -->
+	<link rel="stylesheet" href="css/slick.css">
+	<!-- Custom styles css file -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Color styles css file -->
+	<link rel="stylesheet" href="css/colors/color-4.css">
+
+
+	<!--[if lt IE 9]>
+    	<script src="js/html5shiv.js"></script>
+    	<script src="js/respond.js"></script>
+    <![endif]-->
+
+</head>
+<body id="top-page" data-spy="scroll" data-target=".navbar-fixed-top" data-offset="70">
+
+	<!-- Start Loading Page -->
+	<div class="loading">
+		<div class="loading-wrapper">
+			<div class="loader"></div>
+			<h4>LODING</h4>
+		</div>
+	</div>
+	<!-- End Loading Page -->
+
+
+	<!-- Start Color-Box Switcher -->
+	<div class="color-switcher closed text-center" style="display: none">
+		<h6>Color Switcher</h6>
+		<div class="switcher-btn">
+			<i class="fa fa-gear fa-spin"></i>
+		</div>
+		<div class="colors">
+			<p class="para">Choose your favourite color</p>
+			<hr>
+			<ul class="list-unstyled"> <!-- Colors boxes -->
+				<li class="color-slot" data-background="#f7465b" data-target="css/colors/color-1.css"></li>
+				<li class="color-slot" data-background="#874fe8" data-target="css/colors/color-2.css"></li>
+				<li class="color-slot" data-background="#B39964" data-target="css/colors/color-3.css"></li>
+				<li class="color-slot" data-background="#00b85b" data-target="css/colors/color-4.css"></li>
+				<li class="color-slot" data-background="#0C7CD5" data-target="css/colors/color-5.css"></li>
+				<li class="color-slot" data-background="#f9ca3b" data-target="css/colors/color-6.css"></li>
+				<li class="color-slot" data-background="#f27768" data-target="css/colors/color-7.css"></li>
+				<li class="color-slot" data-background="#38C8BD" data-target="css/colors/color-8.css"></li>
+				<li class="color-slot" data-background="#ff5552" data-target="css/colors/color-9.css"></li>
+				<li class="color-slot" data-background="#30e0e0" data-target="css/colors/color-10.css"></li>
+				<li class="color-slot" data-background="#F27935" data-target="css/colors/color-11.css"></li>
+				<li class="color-slot" data-background="#913d88" data-target="css/colors/color-12.css"></li>
+				<li class="color-slot" data-background="#fdb511" data-target="css/colors/color-13.css"></li>
+				<li class="color-slot" data-background="#E44832" data-target="css/colors/color-14.css"></li>
+				<li class="color-slot" data-background="#5dca7d" data-target="css/colors/color-15.css"></li>
+				<li class="color-slot" data-background="#F4B350" data-target="css/colors/color-16.css"></li>
+			</ul>
+		</div>
+		<p class="para">Choose map style</p>
+		<hr>
+		<ul class="map-styles">
+			<li><a href="index.html">light map</a></li>
+			<li><a href="index-dark-map.html">dark map</a></li>
+		</ul>
+	</div>
+	<!-- End Color-Box Switcher -->
+
+	<!-- start Home Section -->
+	<div id="home" class="fs-slider-hero">
+		<!-- <div class="overlay"></div> -->
+		<!-- Navigation -->
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<!-- Start container -->
+			<div class="container">
+				<!-- Logo and toggle  -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collaps" aria-expanded="false">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- Start Logo -->
+			  		<a class="scroll-link navbar-brand" href="#top-page"><img src="img/logos/cb.png"></a>
+			  		<!-- End Logo -->
+				</div>
+
+				<!-- Collect the nav links, forms, and other content for toggling -->
+				<div class="collapse navbar-collapse" id="navbar-collaps">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active">
+							<a class="scroll-link" href="#top-page">Home</a>
+						</li>
+						<li>
+							<a class="scroll-link" href="#about">About Us</a>
+						</li>
+						<li>
+							<a class="scroll-link" href="#services">Services</a>
+						</li>
+
+						<li>
+							<a class="scroll-link" href="#skills">Skills</a>
+						</li>
+
+						<li>
+							<a class="scroll-link" href="#clients">Our Clients</a>
+						</li>
+						<li>
+							<a class="scroll-link" href="#contact">Contact Us</a>
+						</li>
+					</ul>
+				</div>   <!-- /.navbar-collapse -->
+			</div>   <!-- End container -->
+		</nav>   <!-- End Navigation -->
+		<div class="slider">
+			<!-- Slide No. ( 1 ) -->
+			<div class="slider-item parallax slide-one">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="hero-content-wrapper">
+								<div class="hero-content">
+									<div class="text-center">
+										<p>We Don't Follow</p>
+										<h1>We Create our own path</h1>
+
+										<!--a href="#about" class="scroll-link btn btn-custom reverse light">Read More</a-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Slide No. ( 2 ) -->
+			<div class="slider-item parallax slide-two">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="hero-content-wrapper">
+								<div class="hero-content">
+									<div>
+										<h1>You need "Smart Solution"<br>For your Business</h1>
+
+
+										<!--a href="#portfolio" class="scroll-link btn btn-custom reverse dark">My Works</a-->
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Slide No. ( 3 ) -->
+			<div class="slider-item parallax slide-three">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="hero-content-wrapper">
+								<div class="hero-content">
+									<div>
+										<h1>Intelligents<br>Make those Solutions</h1>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Home Section -->
+
+	<!-- Start About Me Section -->
+	<section id="about" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="profile-intro text-center">
+						<div class="profile-img-wrapper wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+
+						  <img class="img-responsive img-circle" src="img/logos/brn.png" alt="brn">
+					    </div>
+					</div>
+
+				</div>
+			</div>
+			<div class="row">
+				<!-- My Personal Info -->
+
+					<!-- Tabs Panel -->
+				  <div class="section-intro text-center wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+					<div class="tab-content">
+						<About Me Panel>
+						<div role="tabpanel" class="tab-pane fade in active" id="about-me-panel">
+							<h4>About Us</h4>
+							<div class="separator-two"></div>
+							<p class="para"><span>Hello There! <br> We are codeBeyins.</span></p>
+							<p class="para">Codebeyins is a Bangladeshi full stack software firm which is by some young, passionate & energetic people and these people are committed to solving complex business problems with every possible latest technology. Our strengths are Java Script, PHP, Dot Net, React & Android.</p>
+						</div>
+					</div>
+
+				   </div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End About Me Section -->
+
+
+	<!-- Start Testimonials Section -->
+	<section id="testimonials" class="section text-center">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section-intro">
+						<h2>This Is Us</h2>
+						<div class="separator centered"></div>
+
+					</div>
+				</div>
+			</div>
+			<!-- Start Carousel -->
+			<div id="carousel" class="carousel slide" data-ride="carousel">
+				<!-- Items Wrapper -->
+				<div class="carousel-inner" role="listbox">
+					<!-- Client NO. 1 -->
+					<div class="item row active">
+						<div class="client-details">
+							<img class="img-circle img-responsive" src="img/our/numaan.png" alt="Numaan Hussain">
+							<h4>Numaan Hussain</h4>
+						</div>
+						<p class="testimonial-text para col-sm-8 col-sm-offset-2 col-xs-12">C0-Founder, UI/UX designer & project manager. BA(Hons) in BS (University of Wales Trinity Saint David, UK)</p>
+					</div>
+					<!-- Client NO. 2 -->
+					<div class="item row">
+						<div class="client-details">
+							<img class="img-circle img-responsive" src="img/our/jony.png" alt="Tanvir Mahtab">
+							<h4>Tanvir Mahtab</h4>
+						</div>
+						<p class="testimonial-text para col-sm-8 col-sm-offset-2 col-xs-12">C0-Founder, Server management & API developer. B.Sc in CSE (University of Information Technology and Science).</p>
+					</div>
+					<!-- Client NO. 3 -->
+					<div class="item row">
+						<div class="client-details">
+							<img class="img-circle img-responsive" src="img/our/nahid.png" alt="Anisur Rahman Nahid">
+							<h4>Anisur Rahman Nahid</h4>
+						</div>
+						<p class="testimonial-text para col-sm-8 col-sm-offset-2 col-xs-12">C0-Founder, App developer (android) B.Sc in CSE (International Islamic University of Chittogong.</p>
+					</div>
+					<!-- Client NO. 4 -->
+					<div class="item row">
+						<div class="client-details">
+							<img class="img-circle img-responsive" src="img/our/tanvir.png" alt="Tanvir Sarker">
+							<h4>Tanvir Sarker</h4>
+						</div>
+						<p class="testimonial-text para col-sm-8 col-sm-offset-2 col-xs-12">C0-Founder, web & App developer (React). B.Sc in CSE (Asian Unervisity of Bangladesh).</p>
+					</div>
+				</div>
+				<!-- Controls -->
+				<div class="carousel-controls">
+					<a href="#carousel" class="left carousel-control" role="button" data-slide="prev">
+						<i class="fa fa-angle-left" aria-hidden="true"></i>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a href="#carousel" class="right carousel-control" role="button" data-slide="next">
+						<i class="fa fa-angle-right" aria-hidden="true"></i>
+						<span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>  <!-- End Carousel -->
+		</div>
+	</section>
+	<!-- End Testimonials Section -->
+
+	<!-- Start Ready Section -->
+	<section id="ready" class="section text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">Are you ready with your requirements?</h3>
+					<!--a href="#contact" class="wow fadeInUp scroll-link btn btn-custom light outline-white" data-wow-duration="1s" data-wow-offset="200">Contact me</a>
+					<a href="#" class="wow fadeInUp btn btn-custom dark outline-white"  data-wow-duration="1s" data-wow-offset="200" data-wow-delay="0.2s"><i class="fa fa-download"></i> My resume</a-->
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Ready Section -->
+
+	<!-- Start Process Section -->
+	<section id="process" class="section">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section-intro text-center wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+						<h2>How We Do It</h2>
+						<div class="separator centered"></div>
+						<p class="para">Our every single project is under sequence steps. We do not compromise with perfect sequence planning for any kind of project.</p>
+					</div>
+				</div>
+			</div>
+			<!-- Step 1 -->
+			<div class="row process-step">
+				<div class="col-sm-7">
+					<div class="process-text wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">
+						<i class="fa fa-bar-chart"></i>
+						<h3>Planning</h3>
+						<div class="separator"></div>
+						<p class="para">Making a plan for a project is the initial part of the sequence planning. In the starting, We do a study about the project and the client's mindset in the face to face meeting. After the compilation of legal formalities, we do research on the R&D of the project.</p>
+					</div>
+				</div>
+				<div class="col-sm-5">
+					<div class="process-img wow fadeInRight" data-wow-duration="1s" data-wow-offset="200">
+						<img src="img/how-we-do/hwd1.jpg" alt="Planning" class="img-responsive">
+					</div>
+				</div>
+			</div>
+			<!-- Step 2 -->
+			<div class="row process-step">
+				<div class="col-sm-7 col-sm-push-5">
+					<div class="process-text wow fadeInRight" data-wow-duration="1s" data-wow-offset="200">
+						<i class="fa fa-pencil"></i>
+						<h3>Designing</h3>
+						<div class="separator"></div>
+						<p class="para">After the planning section, we do designing tasks such as UI/UX, Database, and so on. Therefore every logic will be visualizing to us and it also helps the client to understand how their projects will look like. This section creates a helpful environment to develop.</p>
+					</div>
+				</div>
+				<div class="col-sm-5 col-sm-pull-7">
+					<div class="process-img wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">
+						<img src="img/how-we-do/hwd2.jpg" alt="Designing" class="img-responsive">
+					</div>
+				</div>
+			</div>
+			<!-- Step 3 -->
+			<div class="row process-step">
+				<div class="col-sm-7">
+					<div class="process-text wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">
+						<i class="fa fa-code"></i>
+						<h3>Development</h3>
+						<div class="separator"></div>
+						<p class="para">In the development section, we actually start coding according to the project requirement. We always love to follow 'Agile Methodology' in our working process, it helps developers to understand is the coding process filling the client's demands or not. At the same time it helps the client to know are their demands are fulfilling or not.</p>
+					</div>
+				</div>
+				<div class="col-sm-5">
+					<div class="process-img wow fadeInRight" data-wow-duration="1s" data-wow-offset="200">
+						<img src="img/how-we-do/hwd3.jpg" alt="Development" class="img-responsive">
+					</div>
+				</div>
+			</div>
+			<!-- Step 4 -->
+			<div class="row process-step">
+				<div class="col-sm-7 col-sm-push-5">
+					<div class="process-text wow fadeInRight" data-wow-duration="1s" data-wow-offset="200">
+						<i class="fa fa-tv"></i>
+						<h3>Production</h3>
+						<div class="separator"></div>
+						<p class="para">In the final section, we produce/deliver the project to the client by maintaining legal formalities. We always love to keep in touch with our beloved clients.</p>
+					</div>
+				</div>
+				<div class="col-sm-5 col-sm-pull-7">
+					<div class="process-img wow fadeInLeft" data-wow-duration="1s" data-wow-offset="200">
+						<img src="img/how-we-do/hwd4.jpg" alt="Production" class="img-responsive">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Process Section -->
+
+	<!-- Start Fun Facts Section -->
+	<section id="fun-facts" class="section text-center">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section-intro">
+						<h2>fun facts</h2>
+						<div class="separator centered"></div>
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			<!-- Fact No. ( 1 ) -->
+				<div class="fact col-md-3 col-sm-6">
+					<i class="fa fa-tasks"></i>
+					<span class="timer" data-from="0" data-to="23" data-speed="3000" data-refresh-interval="50"></span>
+					<div class="separator centered"></div>
+					<p>projects done</p>
+				</div>
+				<!-- Fact No. ( 2 ) -->
+				<div class="fact col-md-3 col-sm-6">
+					<i class="fa fa-users"></i>
+					<span class="timer" data-from="0" data-to="39" data-speed="3000" data-refresh-interval="50"></span>
+					<div class="separator centered"></div>
+					<p>happy clients</p>
+				</div>
+				<!-- Fact No. ( 3 ) -->
+				<div class="fact col-md-3 col-sm-6">
+					<i class="fa fa-clock-o"></i>
+					<span class="timer" data-from="0" data-to="3475" data-speed="3000" data-refresh-interval="50"></span>
+					<div class="separator centered"></div>
+					<p>hours worked</p>
+				</div>
+				<!-- Fact No. ( 4 ) -->
+				<div class="fact col-md-3 col-sm-6">
+					<i class="fa fa-coffee"></i>
+					<span class="timer" data-from="0" data-to="281" data-speed="3000" data-refresh-interval="50"></span>
+					<div class="separator centered"></div>
+					<p>cups of coffee</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Fun Facts Section -->
+
+	<!-- Start Services Section -->
+	<section id="services" class="section text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section-intro">
+						<h2>what can we do</h2>
+						<div class="separator centered"></div>
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			<!-- Service No. ( 1 ) -->
+				<div class="service col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+					<i class="fa fa-paint-brush"></i>
+					<h4>Graphic Design</h4>
+
+				</div>
+				<!-- Service No. ( 2 ) -->
+				<div class="service col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+					<i class="fa fa-object-group"></i>
+					<h4>Web Design & Development</h4>
+
+				</div>
+				<!-- Service No. ( 3 ) -->
+				<div class="service col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+					<i class="fa fa-code"></i>
+					<h4>Mobile App Development</h4>
+
+				</div>
+				<!-- Service No. ( 4 ) -->
+				<div class="service col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+					<i class="fa fa-envira"></i>
+					<h4>Branding</h4>
+
+				</div>
+				<!-- Service No. ( 5 ) -->
+				<div class="service col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+					<i class="fa fa-support"></i>
+					<h4>Software Development</h4>
+
+				</div>
+				<!-- Service No. ( 6 ) -->
+				<div class="service col-md-4 col-sm-6 wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+					<i class="fa fa-eye"></i>
+					<h4>3D Modeling</h4>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Services Section -->
+
+
+
+
+
+
+	<!-- Start Skills Section -->
+	<section id="skills" class="section text-center">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section-intro">
+						<h2>Our powerful skills</h2>
+						<div class="separator centered"></div>
+
+					</div>
+				</div>
+			</div>
+			<div class="row">
+			<!-- Skill No. ( 1 ) -->
+				<div class="skill col-md-4 col-sm-6">
+					<div class="chart" data-percent="95">
+						<span class="skill-timer" data-from="0" data-to="95" data-speed="1500"></span>
+						<span class="percent">%</span>
+					</div>
+					<h3>PHP</h3>
+
+				</div>
+				<!-- Skill No. ( 2 ) -->
+				<div class="skill col-md-4 col-sm-6">
+					<div class="chart" data-percent="94">
+						<span class="skill-timer" data-from="0" data-to="94" data-speed="1500"></span>
+						<span class="percent">%</span>
+					</div>
+					<h3>Andriod</h3>
+
+				</div>
+				<!-- Skill No. ( 3 ) -->
+				<div class="skill col-md-4 col-sm-6">
+					<div class="chart" data-percent="92">
+						<span class="skill-timer" data-from="0" data-to="92" data-speed="1500"></span>
+						<span class="percent">%</span>
+					</div>
+					<h3>JavaScript</h3>
+
+				</div>
+				<!-- Skill No. ( 4 ) -->
+				<div class="skill col-md-4 col-sm-6">
+					<div class="chart" data-percent="95">
+						<span class="skill-timer" data-from="0" data-to="95" data-speed="1500"></span>
+						<span class="percent">%</span>
+					</div>
+					<h3>DotNet</h3>
+
+				</div>
+				<!-- Skill No. ( 5 ) -->
+				<div class="skill col-md-4 col-sm-6">
+					<div class="chart" data-percent="90">
+						<span class="skill-timer" data-from="0" data-to="90" data-speed="1500"></span>
+						<span class="percent">%</span>
+					</div>
+					<h3>React</h3>
+
+				</div>
+				<!-- Skill No. ( 6 ) -->
+				<div class="skill col-md-4 col-sm-6">
+					<div class="chart" data-percent="89">
+						<span class="skill-timer" data-from="0" data-to="89" data-speed="1500"></span>
+						<span class="percent">%</span>
+					</div>
+					<h3>wordpress</h3>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Skills Section -->
+
+
+
+
+	<!-- Start Clients Section -->
+
+	<section id="clients" class="section text-center">
+		<!--div class="container"-->
+			<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="section-intro wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+						<h2>Clients</h2>
+						<div class="separator centered"></div>
+						<p class="para">Here are some awesome clients of codeBeyins.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="client-list">
+					<!-- Client No. 1 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="client wow bounceIn" data-wow-duration="0.6s" data-wow-offset="100">
+							<img class="img-responsive" src="img/client/c1.png" alt="client No. 1">
+						</div>
+					</div>
+					<!-- Client No. 2 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="client wow bounceIn" data-wow-duration="0.6s" data-wow-offset="100" data-wow-delay="0.1s">
+							<img class="img-responsive" src="img/client/c2.png" alt="client No. 2">
+						</div>
+					</div>
+					<!-- Client No. 3 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="client wow bounceIn" data-wow-duration="0.6s" data-wow-offset="100" data-wow-delay="0.2s">
+							<img class="img-responsive" src="img/client/c3.png" alt="client No. 3">
+						</div>
+					</div>
+					<!-- Client No. 4 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="client wow bounceIn" data-wow-duration="0.6s" data-wow-offset="100" data-wow-delay="0.3s">
+							<img class="img-responsive" src="img/client/c4.png" alt="client No. 4">
+						</div>
+					</div>
+					<!-- Client No. 5 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="client wow bounceIn" data-wow-duration="0.6s" data-wow-offset="100" data-wow-delay="0.4s">
+							<img class="img-responsive" src="img/client/c5.png" alt="client No. 5">
+						</div>
+					</div>
+					<!-- Client No. 6 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="client wow bounceIn" data-wow-duration="0.6s" data-wow-offset="100" data-wow-delay="0.5s">
+							<img class="img-responsive" src="img/client/c6.png" alt="client No. 6">
+						</div>
+					</div>
+					<!-- Client No. 7 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="client wow bounceIn" data-wow-duration="0.6s" data-wow-offset="100" data-wow-delay="0.6s">
+							<img class="img-responsive" src="img/client/c7.png" alt="client No. 7">
+						</div>
+					</div>
+					<!-- Client No. 8 -->
+					<div class="col-md-3 col-sm-6">
+						<div class="client wow bounceIn" data-wow-duration="0.6s" data-wow-offset="100" data-wow-delay="0.7s">
+							<img class="img-responsive" src="img/client/c8.png" alt="client No. 8">
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- End Clients Section -->
+
+	<!-- Start Contact Section -->
+	<div id="contact" class="section text-center">
+		<div class="container">
+			<div class="overlay"></div>
+			<div class="row">
+				<div class="col-xs-12 wow fadeIn" data-wow-duration="1s" data-wow-offset="200">
+					<div class="section-intro">
+						<h2>Keep in touch</h2>
+						<div class="separator centered"></div>
+						<p class="para">Here you can find us. we would like to hear from you all with hot coffee.</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-12">
+					<div class="row">
+						<div class="col-sm-6 col-xs-12 call-info wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+							<div class="info-wrapper">
+								<i class="fa fa-home fa-fw"></i>
+								<h4>Our Place</h4>
+								<p class="para">Aprt: Kameni, Sector: 18, <br>Uttara, Dhaka</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 call-info wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+							<div class="info-wrapper">
+								<i class="fa fa-phone fa-fw"></i>
+								<h4>Call Us</h4>
+								<p class="para">(+880) 16 2528 6551 </p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-sm-6 col-xs-12 call-info wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+							<div class="info-wrapper">
+								<i class="fa fa-envelope-o fa-fw"></i>
+								<h4>Send Message</h4>
+								<p class="para"> info.codebeyins@gmail.com</p>
+							</div>
+						</div>
+						<div class="col-sm-6 col-xs-12 call-info wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+							<div class="info-wrapper">
+								<i class="fa fa-clock-o fa-fw"></i>
+								<h4>Work Time</h4>
+								<p class="para">We are Available<br> 365 Days</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12 wow fadeInUp" data-wow-duration="1s" data-wow-offset="200">
+					<!-- Start Contact Form -->
+					<form data-toggle="validator" id="contact-form" role="form">
+						<div class="form-intro">
+							<h4>Leave Us A Message</h4>
+							<div class="separator"></div>
+							<p class="para">You can ask us about anything here, just type your name and e-mail and we'll answer you as soon as possible</p>
+						</div>
+						<div class="form-group">
+							<div class="input-group">
+								<label for="name" class="input-group-addon">
+									<span class="glyphicon glyphicon-user"></span>
+								</label>
+								<input type="text" placeholder="Your Name" class="form-control col-xs-12" id="name" name="name" data-error="Please enter a correct name." required>
+							</div>
+							<span class="help-block with-errors"></span>
+						</div>
+						<div class="form-group">
+							<div class="input-group">
+								<label for="mail" class="input-group-addon">
+									<span class="glyphicon glyphicon-envelope"></span>
+								</label>
+								<input type="email" placeholder="Your E-mail" class="form-control col-xs-12" id="mail" name="mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" data-error="Please enter a correct E-mail." required>
+							</div>
+							<span class="help-block with-errors"></span>
+						</div>
+						<div class="form-group">
+							<div class="input-group">
+								<label for="message" class="input-group-addon">
+									<span class="glyphicon glyphicon-comment"></span>
+								</label>
+								<textarea class="form-control" rows="4" id="message" name="message" placeholder="Type your message" data-error="Please enter your message" required></textarea>
+							</div>
+							<span class="help-block with-errors"></span>
+						</div>
+						<div>
+							<button type="submit" id="submit" class="btn btn-custom btn-block">Send Message</button>
+						</div>
+					</form>  <!-- End Contact Form -->
+					<div class="form-response">&nbsp;</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12 social-wrapper wow fadeInLeft" data-wow-duration="1s" data-wow-offset="100">
+					<h4>follow us here :</h4>
+					<!-- Follow Me Social Links -->
+					<div class="social-links">
+						<a href="https://www.facebook.com/codebeyins" class="icon fb"></a> <!-- Facebook Link -->
+						<!--a href="#" class="icon tw"></a--> <!-- Twitter Link -->
+						<!--a href="#" class="icon gh"></a--> <!-- Github Link -->
+						<!--a href="#" class="icon cp"></a--> <!-- Codepen Link -->
+						<a href="https://www.linkedin.com/in/codebeyins-it-9a16011a7/" class="icon li"></a> <!-- Linkedin Link -->
+						<!--a href="#" class="icon dr"></a--> <!-- Dribbble Link -->
+						<!--a href="#" class="icon be"></a--> <!-- Behance Link -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Contact Section -->
+
+	<!-- Start Google Map Section -->
+	<section id="map" class="gmap"></section>
+	<!-- End Google Map Section -->
+
+	<!-- Start Footer Section -->
+	<footer>
+		<div class="copyright">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<p class="para">&copy; Codebeyins 2020 All Rights Received</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!-- End Footer Section -->
+
+	<!-- Start To Top Button -->
+	<div id="toTop">
+		<div class="top-button">
+			<i class="fa fa-angle-up"></i>
+		</div>
+	</div>
+	<!-- End To Top Button -->
+
+	<!-- jQuery JS file -->
+	<script src="js/jquery-1.12.1.min.js"></script>
+	<!-- Bootstrap JS file -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- jQuery easing file -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Parallax JS file -->
+	<script src="js/jquery.parallax-1.1.3.js"></script>
+	<!-- Smoothscroll JS file -->
+	<script src="js/smoothscroll.js"></script>
+	<!-- appear JS file -->
+	<script src="js/jquery.appear.js"></script>
+	<!-- Count-to JS file -->
+	<script src="js/jquery.countTo.js"></script>
+	<!-- EasyPieChart JS file -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- Mixitup JS file -->
+	<script src="js/jquery.mixitup.min.js"></script>
+	<!-- Slick Slider JS file -->
+	<script src="js/slick.min.js"></script>
+	<!-- Typed JS file -->
+	<script src="js/typed.min.js"></script>
+	<!-- Bootstrap form validator JS file -->
+	<script src="js/validator.min.js"></script>
+	<!-- Google Map -->
+	<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YourKeyHere"></script> -->
+	<!--<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>-->
+	<!-- Map JS file -->
+	<!--<script src="js/gmaps.min.js"></script>-->
+	<!-- Light Map Js file -->
+	<!--<script class="map-script" src="js/light-map.js"></script>-->
+	<!-- Custom JS file -->
+	<script src="js/scripts.js"></script>
+	<!-- Wow.js file -->
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+</body>
+</html>
